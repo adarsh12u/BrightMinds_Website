@@ -1,11 +1,17 @@
 import './App.css'
 import React from 'react'
-import { Navbar } from './components'
+import { Clients, Home, Navbar } from './components'
 
 const App = () => {
   return (
     <div>
+      
           <Navbar/>
+          <Home/>
+         
+          <Clients/>   
+          
+          
     </div>
   )
 }
