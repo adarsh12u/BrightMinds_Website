@@ -3,7 +3,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className='  bg-white'>
+    <div className='  bg-white border-b-2'>
         <div className=' px-4 lg:px-14 max-w-screen-2xl mx-auto h-[70vh]'>
 
         
@@ -16,7 +16,7 @@ const Home = () => {
                   Better IT For Better Business
             </p> */}
               <div className=' '>
-                  <img className=' h-72 md:h-96 ' src="/undraw.png" alt="" />
+                  <img className=' h-64 md:h-96 ' src="/undraw.png" alt="" />
               </div>
 
         <div className='text-center md:text-left'>
@@ -36,7 +36,7 @@ const Home = () => {
                   Better IT For Better Business
             </p> */}
               <div className='  '>
-                  <img className=' h-72 md:h-96 w-full md:mr-24 ' src="/undraw_Finance_re_gnv2 (1).png" alt="" />
+                  <img className=' h-64 md:h-96 w-full md:mr-24 ' src="/undraw_Finance_re_gnv2 (1).png" alt="" />
               </div>
 
         <div className=' text-center md:text-left  md:ml-10'>

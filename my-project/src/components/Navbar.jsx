@@ -40,7 +40,7 @@ const navlinks = [{
     <header className=' w-full    bg-white md:bg-transparent  border-b-2 '>
           <nav className={` py-4 md:py-7 lg:px-14 px-4 `}>
                  <div className=' flex justify-between items-center text-base gap-8'>
-                      <a href="" className=' text-2xl font-semibold'>BrightMinds IT Innovation</a>
+                      <a href="" className=' text-2xl font-semibold'>BrightMinds IT </a>
                 
 
                  <ul className=' md:flex space-x-12 hidden'>
