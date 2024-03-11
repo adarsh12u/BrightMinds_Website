@@ -1,3 +1,6 @@
 export {default as Navbar} from './Navbar'
 export {default as Home} from './Home'
 export {default as Clients} from './Clients'
+export {default as Services} from './Services'
+export {default as Technologies} from './Technologies'
+export {default as Projects} from './Projects'

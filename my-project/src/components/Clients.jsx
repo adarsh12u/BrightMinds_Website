@@ -52,12 +52,14 @@ const Clients = () => {
 }
 ]
   return (
-    <div className=' md:px-20 flex flex-col gap-10 items-center px-4 py-16 max-w-screen-2xl mx-auto  '>
+    <div className=' md:px-20 flex flex-col gap-10 items-center px-4 py-16 max-w-screen-2xl mx-auto border-b-2  '>
          <div className=' text-center my-8'>
               <h2 className=' text-3xl md:text-4xl text-black font-semibold mb-2'>
                   Industries We've Worked with!
               </h2>
-
+              <div className=' h-1 w-20 rounded-full bg-blue-500 mx-auto'>
+                  
+                  </div>
          </div>
          <div className='  grid grid-cols-2 gap-6  md:grid-cols-5 md:gap-24'>
                 {
