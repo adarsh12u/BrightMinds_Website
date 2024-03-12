@@ -45,7 +45,7 @@ const Services = () => {
           {
               services.map((val , index)=>{
                   return (
-                      <Card  href="#" key={index} className="max-w-sm  duration-300  hover:scale-110">
+                      <Card   key={index} className="max-w-sm  duration-300  hover:scale-110">
                       <h5 className="text-2xl font-semibold tracking-tight  text-blue-500 ">
                        {
                            val.tech

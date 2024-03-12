@@ -21,35 +21,35 @@ const Clients = () => {
         text:"E-commerce"
   },
   {
-    icon:<FaTrain size={25} className=' text-blue-400  md:text-blue-500 '/>,
+    icon:<FaTrain size={25} className=' text-blue-500 '/>,
     text:"Travel"
 },
 {
-    icon:<FaSuitcaseRolling size={25} className=' text-blue-400  md:text-blue-500 '/>,
+    icon:<FaSuitcaseRolling size={25} className=' text-blue-500 '/>,
     text:"Business"
 },
 {
-    icon:<PiNotebookFill size={25} className=' text-blue-400  md:text-blue-500 '/>,
+    icon:<PiNotebookFill size={25} className=' text-blue-500 '/>,
     text:"Education"
 },
 {
-    icon:<FaRegSmile size={25} className=' text-blue-400  md:text-blue-500 '/>,
+    icon:<FaRegSmile size={25} className=' text-blue-500 '/>,
     text:"Cosmetic"
 },
 {
-    icon:<FaUserDoctor size={25}  className='  text-blue-400  md:text-blue-500 '/>,
+    icon:<FaUserDoctor size={25}  className='  text-blue-500 '/>,
     text:"Health care"
 },
 {
-    icon:<MdRealEstateAgent size={25} className=' text-blue-400  md:text-blue-500 '/>,
+    icon:<MdRealEstateAgent size={25} className=' text-blue-500 '/>,
     text:"Real state"
 },
 {
-    icon:<GiBallerinaShoes size={25} className=' text-blue-400  md:text-blue-500 '/>,
+    icon:<GiBallerinaShoes size={25} className=' text-blue-500 '/>,
     text:"Footwares"
 },
 {
-    icon:<FaPaintBrush size={25} className=' text-blue-400  md:text-blue-500 '/>,
+    icon:<FaPaintBrush size={25} className=' text-blue-500 '/>,
     text:"Art"
 }
 ]

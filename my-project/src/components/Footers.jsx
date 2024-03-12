@@ -25,15 +25,15 @@ const Footers = () => {
             <div>
               <Footer.Title title="Follow me" />
               <Footer.LinkGroup col>
-                <Footer.Link href="">Instagram</Footer.Link>
-                <Footer.Link href="">Linkedin</Footer.Link>
+                <Footer.Link href="https://www.instagram.com/brightmindsitinnovations?igsh=MXI3ODMzaW52ODZqeA%3D%3D">Instagram</Footer.Link>
+                <Footer.Link href="https://www.linkedin.com/in/brightminds-it-innovation-a597592b2/">Linkedin</Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
               <Footer.Title title="Legal" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#">Privacy Policy</Footer.Link>
-                <Footer.Link href="#">Terms &amp; Conditions</Footer.Link>
+                <Footer.Link>Privacy Policy</Footer.Link>
+                <Footer.Link >Terms &amp; Conditions</Footer.Link>
               </Footer.LinkGroup>
             </div>
           </div>

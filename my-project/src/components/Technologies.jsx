@@ -58,9 +58,9 @@ const Technologies = () => {
           {
               technologies.map((val , index)=>{
                   return (
-                      <Card href="#" key={index} className="max-w-sm  duration-300  hover:scale-110">
+                      <Card  key={index} className="max-w-sm  duration-300  hover:scale-110">
                         {
-                             val.path.includes('react') ?                    <img src={val.path} className=' h-24 w-24 md:h-32 w-32 animate-spin' alt="" />
+                             val.path.includes('react') ?                    <img src={val.path} className=' h-24 w-24 md:h-32 md:w-32 animate-spin' alt="" />
  :                    <img src={val.path} className=' h-24 w-24 md:h-32 md:w-32' alt="" />
   
                         }
