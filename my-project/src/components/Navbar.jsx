@@ -25,15 +25,17 @@ useEffect(()=>{
     })
 
 const navlinks = [{
-      link : "Home" , path : "home"
+      link : "Home" , path : "#home"
 } , {
-    link : "Services" , path : "services"
+    link : "Services" , path : "#services"
 },{
-    link : "About" , path : "about"
+    link : "About" , path : "#about"
 },{
-    link : "Products" , path : "products"
+    link : "Products" , path : "#products"
 },{
-    link : "Facs" , path : "facs"
+    link : "Clients" , path : "#clients"
+},{
+    link : "Technologies" , path : "#technologies"
 }]
 
   return (
@@ -45,7 +47,7 @@ const navlinks = [{
 
                  <ul className=' md:flex space-x-12 hidden'>
                       {
-                        navlinks.map(({link , path})=> <Link key={path} smooth={true } offset={-100} spy={true} to={path} className=' block text-base text-black hover:text-blue-500'>{link}</Link>
+                        navlinks.map(({link , path})=> <a className=' hover:text-blue-400' href={path}>{link}</a>
                                
                        )
                       }

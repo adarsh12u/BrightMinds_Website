@@ -21,7 +21,7 @@ const projects = [{
 },]
 const Projects = () => {
   return (
-    <div className=' md:px-20 flex flex-col gap-10 items-center px-4 py-16 max-w-screen-2xl mx-auto'>
+    <div id='products' className=' md:px-20 flex flex-col gap-10 items-center px-4 py-16 max-w-screen-2xl mx-auto'>
          
          <div className=' text-center my-8'>
          <h2 className=' text-3xl md:text-4xl text-black font-semibold mb-2'>
@@ -39,8 +39,8 @@ const Projects = () => {
           {
               projects.map((val , index)=>{
                   return (
-                      <div className='  h-52 w-96  object-cover border-2 border-black  rounded-md'>
-                            <img src={val.img} alt="" className=' h-[205px] rounded-md w-full object-cover' />
+                      <div className='  h-52 w-72 md:w-96  object-cover border-2 border-black  rounded-lg duration-300 hover:scale-90'>
+                            <img src={val.img} alt="" className=' h-[205px] rounded-lg w-full object-cover' />
                       </div>
 
               ) })

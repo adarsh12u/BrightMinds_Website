@@ -39,9 +39,9 @@ const technologies = [{
 },]
 const Technologies = () => {
   return (
-    <div className=' md:px-20 flex flex-col gap-10 items-center px-4 py-16 max-w-screen-2xl mx-auto'>
+    <div id='technologies' className=' md:px-20 flex flex-col gap-10 items-center px-4 py-16 max-w-screen-2xl mx-auto'>
          
-         <div className=' text-center my-8'>
+         <div  className=' text-center my-8'>
          <h2 className=' text-3xl md:text-4xl text-black font-semibold mb-2'>
                   Technologies 
               </h2>
@@ -58,8 +58,13 @@ const Technologies = () => {
           {
               technologies.map((val , index)=>{
                   return (
-                      <Card href="#" key={index} className="max-w-sm">
-                     <img src={val.path} className=' h-28 md:h-32 w-32' alt="" />
+                      <Card href="#" key={index} className="max-w-sm  duration-300  hover:scale-110">
+                        {
+                             val.path.includes('react') ?                    <img src={val.path} className=' h-[90px] md:h-32 w-32 animate-spin' alt="" />
+ :                    <img src={val.path} className=' h-24 md:h-32 w-32' alt="" />
+  
+                        }
+                    
                     </Card>
               ) })
               

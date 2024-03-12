@@ -9,6 +9,8 @@ import { MdRealEstateAgent } from "react-icons/md";
 import { FaUserDoctor } from "react-icons/fa6";  
 import { GiBallerinaShoes } from "react-icons/gi";
 import { FaPaintBrush } from "react-icons/fa";
+import { motion } from 'framer-motion';
+import { fadein } from './varients';
 const Clients = () => {
     const  industries = [{
           icon:<MdComputer size={25}  className=' text-blue-400  md:text-blue-500 ' />,
@@ -52,8 +54,8 @@ const Clients = () => {
 }
 ]
   return (
-    <div className=' md:px-20 flex flex-col gap-10 items-center px-4 py-16 max-w-screen-2xl mx-auto border-b-2  '>
-         <div className=' text-center my-8'>
+    <div id='clients' className=' md:px-20 flex flex-col gap-10 items-center px-4 py-16 max-w-screen-2xl mx-auto border-b-2  '>
+         <div variants={fadein("right",0.1)} initial="hidden" whileInView={"show"} viewport={{once : false , amount : 0.7}} className=' text-center my-8'>
               <h2 className=' text-3xl md:text-4xl text-black font-semibold mb-2'>
                   Industries We've Worked with!
               </h2>
@@ -61,7 +63,7 @@ const Clients = () => {
                   
                   </div>
          </div>
-         <div className='  grid grid-cols-2 gap-6  md:grid-cols-5 md:gap-24'>
+         <div variants={fadein("up",0.1)} initial="hidden" whileInView={"show"} viewport={{once : false , amount : 0.7}} className='  grid grid-cols-2 gap-6  md:grid-cols-5 md:gap-24'>
                 {
                       industries.map((value , index)=>{
                             return <div className=' flex flex-col items-center gap-5'>
