@@ -39,7 +39,7 @@ const Projects = () => {
           {
               projects.map((val , index)=>{
                   return (
-                      <div className='  h-52 w-72 md:w-96  object-cover border-2 border-black  rounded-lg duration-300 hover:scale-90'>
+                      <div className='  h-52 w-[310px] md:w-96  object-cover border-2 border-black  rounded-lg duration-300 hover:scale-90'>
                             <img src={val.img} alt="" className=' h-[205px] rounded-lg w-full object-cover' />
                       </div>
 
