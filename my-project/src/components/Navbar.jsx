@@ -66,7 +66,7 @@ const navlinks = [{
 
                  <div className={` space-y-4 flex flex-col justify-center items-center px-4  mt-16 py-7 bg-blue-500  ${ismenu ? "block fixed top-0 right-0 left-0 z-50" :"hidden" }`}>
                  {
-                        navlinks.map(({link , path})=> <Link key={path} smooth={true } offset={-100} spy={true} to={path} className=' block text-base text-gray-100 hover:text-blue-500'>{link}</Link>
+                        navlinks.map(({link , path})=> <a className=' hover:text-blue-400' href={path}>{link}</a>
                                
                        )
                       }
