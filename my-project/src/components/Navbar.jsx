@@ -66,7 +66,7 @@ const navlinks = [{
 
                  <div className={` space-y-4 flex flex-col justify-center items-center px-4  mt-16 py-7 bg-blue-500  ${ismenu ? "block fixed top-0 right-0 left-0 z-50" :"hidden" }`}>
                  {
-                        navlinks.map(({link , path})=> <a className=' hover:text-blue-400' href={path}>{link}</a>
+                        navlinks.map(({link , path})=> <a onClick={settoggle} className=' hover:text-blue-400' href={path}>{link}</a>
                                
                        )
                       }
