@@ -36,6 +36,8 @@ const navlinks = [{
     link : "Clients" , path : "#clients"
 },{
     link : "Technologies" , path : "#technologies"
+},{
+    link : "ContactUs" , path : "#contact"
 }]
 
   return (

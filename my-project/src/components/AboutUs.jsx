@@ -28,7 +28,7 @@ const workflow = [{
 }]
 const AboutUs = () => {
   return (
-    <div id='about' className=' md:px-20 flex flex-col gap-10 items-center px-4 py-16 max-w-screen-2xl mx-auto'>
+    <div id='about' className=' md:px-20 flex flex-col gap-10 items-center px-4 py-16 max-w-screen-2xl mx-auto border-b-2'>
          
     <motion.div variants={fadein("left",0.1)} initial="hidden" whileInView={"show"} viewport={{once : false , amount : 0.7}} className=' text-center my-8'>
     <h2 className=' text-3xl md:text-4xl text-black font-semibold mb-2'>
